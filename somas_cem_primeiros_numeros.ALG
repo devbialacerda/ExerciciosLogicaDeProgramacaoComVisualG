@@ -1,24 +1,24 @@
 Algoritmo "somas_cem_primeiros_numeros"
-// Disciplina   :[Lógica de Programação com VisualG]
+// Disciplina   :[LÃ³gica de ProgramaÃ§Ã£o com VisualG]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Apresentar o total da soma obtida dos
-//cem primeiros números inteiros (1+2+3+4+...+98+99+100).
+// DescriÃ§Ã£o   : Apresentar o total da soma obtida dos
+//cem primeiros nÃºmeros inteiros (1+2+3+4+...+98+99+100).
 // Autor(a)    : Beatriz Lacerda Rodrigues
 // Data atual  : 01/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero: inteiro
 i: inteiro
 soma: inteiro
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-soma <- 1
-para i de 1 até 100 faça
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+soma <- 0
+para i de 1 atÃ© 100 faÃ§a
 soma <- soma + i
 fimpara
-escreval("O total da soma é:", soma)
+escreval("O total da soma Ã©:", soma)
 
 
 
