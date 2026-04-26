@@ -1,19 +1,19 @@
 Algoritmo "estrutura_de_repeticao"
-// Disciplina   :[Lógica de Programação com VisualG]
+// Disciplina   :[LÃ³gica de ProgramaÃ§Ã£o com VisualG]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Solicite o valor que o usuário quer sacar, utilie o mod para
-// entregar as cédulas correspondentes da maneira correta.
+// DescriÃ§Ã£o   : Solicite o valor que o usuÃ¡rio quer sacar, utilie o mod para
+// entregar as cÃ©dulas correspondentes da maneira correta.
 // Autor(a)    : Beatriz Lacerda Rodrigues
 // Data atual  : 01/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    conta: inteiro
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   enquanto conta <5 faça
-      escreval("Thiago é chato!")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   enquanto conta <5 faÃ§a
+      escreval("Hoje Ã© o meu aniversÃ¡rio!")
       conta<- conta+1
       fimenquanto
 
