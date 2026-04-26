@@ -1,14 +1,14 @@
 Algoritmo "expoente_com_base"
-// Disciplina   :[Lógica de Programação com VisualG]
+// Disciplina   :[LÃ³gica de ProgramaÃ§Ã£o com VisualG]
 // Professor   : Jailson Costa dos Santos
-// Descrição   :Elaborar um programa que apresente como resultado o valor de uma potência de uma base
-//qualquer elevada a um expoente qualquer, ou seja, de BE, em que B é o valor da base e E o valor
-//do expoente. Observe que neste exercício não pode ser utilizado o operador de exponenciação do
+// DescriÃ§Ã£o   :Elaborar um programa que apresente como resultado o valor de uma potÃªncia de uma base
+//qualquer elevada a um expoente qualquer, ou seja, de BE, em que B Ã© o valor da base e E o valor
+//do expoente. Observe que neste exercÃ­cio nÃ£o pode ser utilizado o operador de exponenciaÃ§Ã£o do
 //portuguol (^).
 // Autor(a)    : Beatriz Lacerda Rodrigues
 // Data atual  : 04/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 B: inteiro
 A: inteiro
 i: inteiro
@@ -17,17 +17,16 @@ resultado: inteiro
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite o valor da base:")
 leia(B)
 escreva("Digite o valor do expoente:")
 leia(A)
-resultado <- 1
-para i de 1 até A faça
+resultado <- B
+para i de 1 atÃ© A passo 2 faÃ§a
 resultado <- resultado * B
 fimpara
-escreva("O resultado é:", resultado)
-
+escreva("O resultado Ã©:", resultado)
 
 
 
