@@ -22,8 +22,8 @@ escreva("Digite o valor da base:")
 leia(B)
 escreva("Digite o valor do expoente:")
 leia(A)
-resultado <- B
-para i de 1 até A passo 2 faça
+resultado <- 1
+para i de 1 até A passo 1 faça
 resultado <- resultado * B
 fimpara
 escreva("O resultado é:", resultado)
