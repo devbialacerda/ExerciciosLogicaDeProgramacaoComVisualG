@@ -1,30 +1,30 @@
 Algoritmo "hora_trabalhada_com_acrescimo"
-// Disciplina   :[LÛgica de ProgramaÁ„o com VisualG]
+// Disciplina   :[L√≥gica de Programa√ß√£o com VisualG]
 // Professor   : Jailson Costa dos Santos
-// DescriÁ„o   :  A jornada de trabalho semanal de um funcion·rio È de 40 horas. O funcion·rio que trabalhar mais
-//de 40 horas receber· hora extra, cujo c·lculo È o valor da hora regular com um acrÈscimo de 50%.
-//Escreva um algoritmo que leia o n˙mero de horas trabalhadas em um mÍs, o sal·rio por hora e escreva
-//o sal·rio total do funcion·rio, que dever· ser acrescido das horas extras, caso tenham sido trabalhadas
+// Descri√ß√£o   :  A jornada de trabalho semanal de um funcion√°rio √© de 40 horas. O funcion√°rio que trabalhar mais
+//de 40 horas receber√° hora extra, cujo c√°lculo √© o valor da hora regular com um acr√©scimo de 50%.
+//Escreva um algoritmo que leia o n√∫mero de horas trabalhadas em um m√™s, o sal√°rio por hora e escreva
+//o sal√°rio total do funcion√°rio, que dever√° ser acrescido das horas extras, caso tenham sido trabalhadas
 // Data atual  : 17/04/2026
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 hora: inteiro
 salario_hora: real
 salario_total_sem_hora_extra: real
 salario_total_com_hora_extra: real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-escreval("Quantas horas vocÍ trabalhou este mÍs?")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
+escreval("Quantas horas voc√™ trabalhou este m√™s?")
 leia(hora)
-escreval("Qual seu sal·rio por hora?")
+escreval("Qual seu sal√°rio por hora?")
 leia(salario_hora)
 salario_total_sem_hora_extra <- hora * salario_hora)
 salario_total_com_hora_extra<- salario_total_sem_hora_extra * 0.5 + salario_total_sem_hora_extra
-se hora > 40 entao
-escreval("Seu sal·rio com um acrÈscimo de 50% È de:",salario_total_com_hora_extra)
+se hora > 160 entao
+escreval("Seu sal√°rio com um acr√©scimo de 50% √© de:",salario_total_com_hora_extra)
 senao
-escreval("Seu sal·rio È de:",salario_total_sem_hora_extra)
+escreval("Seu sal√°rio √© de:",salario_total_sem_hora_extra)
 fimse
 
 
